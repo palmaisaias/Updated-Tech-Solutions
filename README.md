@@ -1,0 +1,1 @@
+I had already used bootstrap card in my previous assingment, so that portion will look similar. The file still meets all the criteria for the assingment including Bootstrap buttons, cards, and nav bar.
