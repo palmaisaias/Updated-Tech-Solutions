@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Project</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- cool zoom in feature on the pictures -->
+    <style>
+        .zoom-in-div {
+          width: 286px;
+          height: 200px;
+          transition: transform 0.3s ease;
+        }
+    
+        .zoom-in-div:hover {
+          transform: scale(1.1);
+        }
+
+        .custom-font {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .tech-font {
+            font-family: 'Roboto Mono', monospace;
+        }
+      </style>
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand tech-font" href="#">Tech Solutions</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Form</a>
+                </li>
+            </ul>
+            <div class="d-flex ms-auto">
+              <form class="d-flex ms-auto" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary" type="submit">Search</button>
+              </form>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+    <div class="container">
+      <h1 class="display-3 ms-auto custom-font">Services</h1>
+    </div>
+    
+    <div class="container text-center">
+        <div class="row">
+            <div class="card border-dark" style="width: 18rem; margin: 5px;">
+                <img class="zoom-in-div" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29uc3VsdGluZ3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Consulting</h5>
+                  <p class="card-text">Providing expert advice and strategic guidance to help businesses optimize their technology and achieve their goals.</p>
+                </div>
+                <button type="button" class="btn btn-primary btn-sm">Learn More</button>
+            </div>
+            <div class="card border-dark" style="width: 18rem; margin: 5px;">
+                <img class="zoom-in-div" src="https://plus.unsplash.com/premium_photo-1678565869434-c81195861939?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c29mdHdhcmV8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Development</h5>
+                  <p class="card-text">Creating custom software solutions tailored to meet the specific needs and requirements of clients.</p>
+                </div>
+                <button type="button" class="btn btn-success btn-sm">Learn More</button>
+            </div>
+            <div class="card border-dark" style="width: 18rem; margin: 5px;">
+                <img class="zoom-in-div" src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3liZXJzZWN1cml0eXxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Cybersecurity</h5>
+                  <p class="card-text"> Implementing measures and strategies to protect systems, networks, and data from cyber threats and unauthorized access.</p>
+                </div>
+                <button type="button" class="btn btn-info btn-sm">Learn More</button>
+            </div>
+        </div>
+    </div>
+
+<!-- my-4 sets the margin of 4 on the y axis -->
+    <div class="container my-4"> 
+        <div class="row">
+            <!-- md-8 sets the column to take up the required '2/3' -->
+          <div class="col-md-8">
+            <!-- ms-auto sets the margin automatically on the starting side, aka 's' -->
+            <h1 class="display-3 ms-auto custom-font">About Us</h1>
+                <p>At Tech Solutions, we specialize in providing innovative technology services tailored to meet the unique needs of our clients. Our mission is to empower businesses with cutting-edge solutions that drive efficiency, enhance productivity, and foster growth. With a team of experienced professionals, we offer a comprehensive range of services including IT consulting, custom software development, and robust cybersecurity measures.</p>
+                <p>We are committed to delivering excellence and ensuring our clients stay ahead in an ever-evolving digital landscape. Trust Tech Solutions to be your partner in navigating the complexities of technology and achieving your business goals.</p>
+          </div>
+      
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-header">
+                Reach Out
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Our Mission</h5>
+                <p class="card-text">At Tech Solutions, our mission is to deliver innovative and reliable technology services that empower businesses to achieve their goals and stay ahead in a rapidly evolving digital world.</p>
+                <h5 class="card-title">Contact Us</h5>
+                <p class="card-text">Email:techsol@company.com<br>Phone: (123) 456-7890</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <form>
+        <div class="container my-4">
+          <h1 class="display-3 ms-auto custom-font">Contact Form</h1>
+
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name">
+                </div>
+            </div>
+
+            <div class="row my-4">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Email">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Chose your service...</label>
+                <select class="form-control" id="service-selection">
+                  <option>Consulting</option>
+                  <option>Development</option>
+                  <option>Cybersecurity</option>>
+                </select>
+            </div>
+
+            <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="button">Submit</button>
+            </div>
+            
+        </div>
+    </form>
+
+      
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
